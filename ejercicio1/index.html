@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ejercicio1/css/styles.css">
+    <title>Slider de Imagenes</title>
+</head>
+<body>
+    <div class="image-slider">
+        <img id="slider-img" class="img" src="" alt="imagen del slider">
+
+        <button id="gallery-toggle" onclick="toggleGalleryView()">Ver vista galería de imágenes</button>
+
+            <button class="button-slider btnAnt" onclick="showAntImage()">&lt;</button>
+            <button class="button-slider btnSig" onclick="showSigImage()">&gt;</button>
+
+    <div id="gallery-container" class="hidden">
+            <img src="https://scansource.com.br/wp-content/uploads/2023/01/6_tendencias_tecnologia_2023.jpg" alt="tendencias 2023" title="A T-Rex on display in the Manchester University Museum">
+        
+            <img src="https://conecta.tec.mx/sites/default/files/inline-images/tecnologia-longevidad-sustentabilidad-tec-2023-tendencias.jpg" alt="chips informáticos con células humanas" title="Empresas tecnológicas fabrican chips informáticos con células humanas">
+        
+            <img src="https://www.murcia.com/noticias/fotos/19012023928371w.jpg" alt="Tendencias Tecnológicas" title="Tendencias Tecnológicas">
+        
+            <img src="https://www.zitelia.com/wp-content/uploads/2022/12/5dec47012d257.png" alt="Tendencias Tecnológicas" title="Uso de nuevas herramientas tecnológicas">
+        
+        </div>
+    </div>
+
+    <script src="/ejercicio1/js/slider.js"></script>
+</body>
+</html>
